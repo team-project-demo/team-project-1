@@ -29,6 +29,7 @@ namespace Univer1
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginWindow));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.loginLbl = new System.Windows.Forms.Label();
             this.LoginTextBox = new System.Windows.Forms.TextBox();
@@ -109,6 +110,7 @@ namespace Univer1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(249, 142);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LoginWindow";
             this.Text = "LoginWindow";
             this.groupBox1.ResumeLayout(false);
